@@ -18,7 +18,7 @@ fun main() {
     println(part2(input))
 }
 
-enum class RockPaperScissors(private val codes: List<String>, private val value: Int) {
+private enum class RockPaperScissors(private val codes: List<String>, private val value: Int) {
     rock(listOf("A", "X"), 1),
     paper(listOf("B", "Y"), 2),
     scissors(listOf("C", "Z"), 3);
